@@ -1,0 +1,64 @@
+.headfoot {
+    text-align: center;
+    color: rgb(177, 28, 194);
+    background-color: rgb(26, 22, 133);
+    margin: 5px;
+    padding: 5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+.content {
+  color: blue;
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+}
+.sidebar {
+  background-color: aliceblue;
+  color: black;
+  width: 25%;
+  float: right;
+  border: 2px solid black;
+  text-align: center;
+}
+.sidebar:hover {
+  background-color:aqua;
+}
+.everything {
+  width: 70%;
+  float: left;
+}
+@font-face {
+  font-family: English;
+  src:url(English.ttf);
+}
+body {
+  font-family: English;
+}
+.tbox:hover {
+  width: 200px;
+}
